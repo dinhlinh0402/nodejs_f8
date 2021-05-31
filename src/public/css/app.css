@@ -1,0 +1,42 @@
+.card-course-item {
+  margin-top: 20px; }
+
+.col-lg-3 ul li {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  line-height: 50px; }
+
+.col-lg-3 ul {
+  padding-left: 0px; }
+
+.col-lg-3 ul li .icon {
+  width: 30%;
+  font-size: 30px; }
+
+.col-lg-3 ul li .information {
+  width: 70%; }
+
+.col-lg-3 {
+  text-align: center; }
+
+.col-lg-3 .bt_hoc {
+  margin-top: 20px;
+  background-color: orange;
+  border: 1px;
+  border-radius: 10px 0px 10px 0px;
+  height: 40px; }
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 4px; }
+
+.select {
+  margin-bottom: 20px; }
+
+.checkbox-select-all-options {
+  width: 190px;
+  margin: 0  20px; }

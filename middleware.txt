@@ -1,0 +1,22 @@
+# Middleware
+
+### Ý nghĩa
+- Phần mềm trung gian (đứng giữa các thành phần trong mô hình phần mềm)
+
+Browser (client) ===========Request==============> Server (Node)
+
+Browser (client) <==========Response============== Server (Node)
+
+### Vai trò
+- Giống như "Bác bảo vệ"
+
+1. Soát vé (kiểm sotas -> validation)
+2. Không cho vào 
+3. Cho phép vào (Validation passed --> cho vào)
+4. Chỉnh sửa / thay đồi
+
+
+### Ứng dụng
+- Dựng chức năng xác thực (Authentication)
+- Chức năng phân quyền (Authorization)
+- Để chia sẻ các giá trị của biến tới tất cả các views (BE)
